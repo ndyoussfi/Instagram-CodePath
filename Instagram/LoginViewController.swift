@@ -8,21 +8,48 @@
 
 import UIKit
 import Parse
+import PasswordTextField
 
-class LoginViewController: UIViewController {
+
+class LoginViewController: UIViewController,UIViewControllerTransitioningDelegate {
 
     @IBOutlet weak var usernameField: UITextField!
-    @IBOutlet weak var passwordField: UITextField!
+    @IBOutlet weak var passwordField: PasswordTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        UIView.animateWithDuration(4, delay: 1, options:[UIViewAnimationOptions.AllowUserInteraction,UIViewAnimationOptions.Repeat,UIViewAnimationOptions.Autoreverse], animations: {
+            self.view.backgroundColor = self.randomColors()
+            self.view.backgroundColor = self.randomColors()
+            
+            
+            
+            }, completion:nil )
+        if passwordField.isInvalid(){
+            print(passwordField.errorMessage)
+        }
+    }
+    
+    func randomColors() -> UIColor {
+        let blue : CGFloat = CGFloat(arc4random() % 375) / 276
+        let green : CGFloat = CGFloat(arc4random() % 398) / 276 + 0.5
+        let red : CGFloat = CGFloat(arc4random() % 199) / 276 + 0.5
+        
+        return UIColor(hue: blue, saturation: green, brightness: red, alpha: 1)
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        randomColors()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
     
     @IBAction func onSignIn(sender: AnyObject) {
         

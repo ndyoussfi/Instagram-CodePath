@@ -84,10 +84,18 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-Instagram/ALCameraViewController.framework"
   install_framework "Pods-Instagram/Bolts.framework"
+  install_framework "Pods-Instagram/DOFavoriteButton.framework"
   install_framework "Pods-Instagram/Parse.framework"
+  install_framework "Pods-Instagram/PasswordTextField.framework"
+  install_framework "Pods-Instagram/TextFieldEffects.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-Instagram/ALCameraViewController.framework"
   install_framework "Pods-Instagram/Bolts.framework"
+  install_framework "Pods-Instagram/DOFavoriteButton.framework"
   install_framework "Pods-Instagram/Parse.framework"
+  install_framework "Pods-Instagram/PasswordTextField.framework"
+  install_framework "Pods-Instagram/TextFieldEffects.framework"
 fi

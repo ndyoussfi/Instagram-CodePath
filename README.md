@@ -8,24 +8,27 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] User can sign up to create a new account using Parse authentication
-- [ ] User can log in and log out of his or her account
-- [ ] The current signed in user is persisted across app restarts
-- [ ] User can take a photo, add a caption, and post it to "Instagram"
-- [ ] User can view the last 20 posts submitted to "Instagram"
+- [x] User can sign up to create a new account using Parse authentication
+- [x] User can log in and log out of his or her account
+- [x] The current signed in user is persisted across app restarts
+- [x] User can take a photo, add a caption, and post it to "Instagram"
+- [x] User can view the last 20 posts submitted to "Instagram"
 
 The following **optional** features are implemented:
 
-- [ ] Show the username and creation time for each post
+- [x] Show the username and creation time for each post
 - [ ] After the user submits a new post, show a progress HUD while the post is being uploaded to Parse.
-- [ ] User Profiles:
-   - [ ] Allow the logged in user to add a profile photo
+- [] User Profiles:
+   - [] Allow the logged in user to add a profile photo
    - [ ] Display the profile photo with each post
    - [ ] Tapping on a post's username or profile photo goes to that user's profile page
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] password field POD
+- [x] ALC camera POD
+- [x] DOFavorite POD
+- [x] ZF button (google style) POD
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
@@ -36,7 +39,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-![Walkthrough](Instagif.gif)
+VIDEO TOO LARGE, PLEASE WATCH IT ON YOUTUBE @: https://youtu.be/44v8z7lZ62k
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 

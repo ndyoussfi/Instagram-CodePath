@@ -5,6 +5,12 @@ use_frameworks!
 
 target 'Instagram' do
     pod 'Parse'
+    pod 'ALCameraViewController'
+    pod 'DOFavoriteButton'
+    pod 'TextFieldEffects'
+    pod 'PasswordTextField'
+    #    pod 'RAMAnimatedTabBarController', '~> 1.1.1'
+#    pod 'TKSubmitTransition'    
 end
 
 target 'InstagramTests' do

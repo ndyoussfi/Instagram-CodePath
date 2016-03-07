@@ -1,13 +1,25 @@
 PODS:
+  - ALCameraViewController (1.1.7)
   - Bolts/Tasks (1.6.0)
+  - DOFavoriteButton (0.0.4)
   - Parse (1.12.0):
     - Bolts/Tasks (~> 1.5)
+  - PasswordTextField (1.0.3)
+  - TextFieldEffects (1.1.1)
 
 DEPENDENCIES:
+  - ALCameraViewController
+  - DOFavoriteButton
   - Parse
+  - PasswordTextField
+  - TextFieldEffects
 
 SPEC CHECKSUMS:
+  ALCameraViewController: 15bd245a247cff0f8a038c349ac2bbe79152b686
   Bolts: f52a250053bb517ca874523c3913776359ab3def
+  DOFavoriteButton: 866e15af173d2dd5233971a1f657a5f31d2491d5
   Parse: de2c52a9a1421b91ae7594ab8ce191afd184f19b
+  PasswordTextField: f4e0867042f7b00046ede38c2b8067602affa0dc
+  TextFieldEffects: a1a78efeb93b65c611ad287b28a068c9a4a5f5b4
 
 COCOAPODS: 0.39.0

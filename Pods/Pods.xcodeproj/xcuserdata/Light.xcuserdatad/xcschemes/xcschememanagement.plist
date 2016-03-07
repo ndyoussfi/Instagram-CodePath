@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ALCameraViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>DOFavoriteButton.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -14,7 +24,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PasswordTextField-PasswordTextField.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PasswordTextField.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Instagram.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TextFieldEffects.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,7 +47,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>8012814725BD211EA77D7EA6AA212933</key>
+		<key>5FD11882F132F99CD0C31C6157639CD5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>805D4E75C1BB0ABF8B1DF1FECAAB4B65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8070A5E836A878B9D3DBB7A9AD95A34D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87330B1DCE9E3653334A1C392975BFB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AEC2FE94E21A58E0FC5AB93A46173103</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -33,6 +78,11 @@
 			<true/>
 		</dict>
 		<key>BCA053B6430690326435042FEB61B458</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CD224835B4F019D856E8192E2C5744D6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

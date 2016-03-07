@@ -13,7 +13,7 @@ import Parse
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var storyboard = UIStoryboard(name: "Main", bundle: nil)
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
@@ -26,7 +26,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             })
         )
         
+        
+        // Check if a user is logged in to persist user session
+        
+        
         return true
+    }
+    
+    func userDidLogout() {
+        let vc = storyboard.instantiateInitialViewController()! as UIViewController
+        window?.rootViewController = vc
     }
 
     func applicationWillResignActive(application: UIApplication) {
